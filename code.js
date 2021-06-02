@@ -3,16 +3,21 @@ function helloWorld() {
     return "Hello, World!";
 }
 
-function sayHello(input) {
-    if (input === false) {
-        return "Hello, World!"
-    } else if (input === true) {
-        return "Hello, World!"
-    }
-    return "Hello, " + input + "!";
-}
-//function sayHello(name) {
+//function sayHello(){
+//    return "";
+//}
 
+//function sayHello(input) {
+//    if (input === false) {
+//        return "Hello, World!"
+//    } else if (input === true) {
+//        return "Hello, World!"
+//   }
+//    return "Hello, " + input + "!";
+//}
+
+//function sayHello(name) {
+//
 //   if (name === "Jane") {
 //       return "Hello, Jane!"
 //   } else if (name === "Alex")
@@ -22,4 +27,11 @@ function sayHello(input) {
 //       return "Hello, Pat!"
 //   }
 //    return "Hello, " + name + "!";
-// }
+//}
+
+function sayHello(name) {
+    if (name === undefined) {
+        return "Hello, World!";
+    }
+    return "Hello, " + name + "!";
+}

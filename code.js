@@ -2,7 +2,16 @@
 function helloWorld() {
     return "Hello, World!";
 }
-function sayHello(name) {
+
+function sayHello(input) {
+    if (input === false) {
+        return "Hello, World!"
+    } else if (input === true) {
+        return "Hello, World!"
+    }
+    return "Hello, " + input + "!";
+}
+//function sayHello(name) {
 
 //   if (name === "Jane") {
 //       return "Hello, Jane!"
@@ -12,6 +21,5 @@ function sayHello(name) {
 //   } else if (name === "Pat") {
 //       return "Hello, Pat!"
 //   }
-//    return "Hello, World!";
-    return "Hello, " + name + "!";
-}
+//    return "Hello, " + name + "!";
+// }

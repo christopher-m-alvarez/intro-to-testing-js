@@ -7,15 +7,6 @@ function helloWorld() {
 //    return "";
 //}
 
-//function sayHello(input) {
-//    if (input === false) {
-//        return "Hello, World!"
-//    } else if (input === true) {
-//        return "Hello, World!"
-//   }
-//    return "Hello, " + input + "!";
-//}
-
 //function sayHello(name) {
 //
 //   if (name === "Jane") {
@@ -25,13 +16,23 @@ function helloWorld() {
 //       return "Hello, Alex!";
 //   } else if (name === "Pat") {
 //       return "Hello, Pat!"
+//   }if (name === false) {
+//         return "Hello, World!"
+//   } else if (name === true) {
+//         return "Hello, World!"
 //   }
 //    return "Hello, " + name + "!";
 //}
 
-function sayHello(name) {
-    if (name === undefined) {
-        return "Hello, World!";
-    }
-    return "Hello, " + name + "!";
+//function sayHello(name) {
+//    if (typeof(name) != "string") {
+//        return "Hello, World!";
+//    }
+//    return "Hello, " + name + "!";
+//}
+
+function isFive(value){
+    if(value === 5);
+    return true;
 }
+

@@ -24,15 +24,39 @@ function helloWorld() {
 //    return "Hello, " + name + "!";
 //}
 
-//function sayHello(name) {
-//    if (typeof(name) != "string") {
+//function sayHello(input){
+//    if (input === undefined || input === true || input === false){
 //        return "Hello, World!";
 //    }
-//    return "Hello, " + name + "!";
+//    return "Hello, " + input + "!"
 //}
 
-function isFive(value){
-    if(value === 5);
-    return true;
+//function sayHello(input) {
+//
+//    if (typeof input === "string") {
+//
+//        if(isNaN(input)) {
+//            return "Hello, " + input + "!";
+//        }
+//
+//    }
+//    return "Hello, World!";
+//}
+
+function sayHello(input) {
+
+    if (typeof input === "string" && ) {
+
+        if(isNaN(input)) {
+            return "Hello, " + input + "!";
+        }
+
+    }
+    return "Hello, World!";
 }
+
+//function isFive(value){
+//    if(value == 5);
+//    return true;
+//}
 
